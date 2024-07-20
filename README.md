@@ -23,7 +23,7 @@ Personal dot files and home directory configuration scripts. Quickly configure n
 - [ ] /cad - Solidworks and CAD files.
  
 ## Usage
-When configuring a new install, pipe the scipts hosted on gist.myrepos.xyz into bash like so.<br>
+When configuring a new install, pipe the scripts hosted [Here](https://www.gist.myrepos.xyz) into bash like so.<br>
 `curl https://gist.myrepos.xyz/config.sh | /bin/bash`<br>
 
 ## Credits / Resources
