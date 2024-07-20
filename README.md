@@ -17,6 +17,8 @@ Personal dot files and home directory configuration scripts. Quickly configure n
 - [x] .gitconfig
 - [x] .vimrc
 - [x] .tmux.conf
+- [x] .prettierrc
+- [x] eslint.config.js
 - [ ] /sh - Bash scripts, set as a PATH in .zshrc 
 - [ ] /md - Guides and notes written in markdown.
 - [ ] /eg - "For example" files, used as a reference for md files. 
