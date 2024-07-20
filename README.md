@@ -24,20 +24,7 @@ Personal dot files and home directory configuration scripts. Quickly configure n
  
 ## Usage
 When configuring a new install, pipe the scipts hosted on gist.myrepos.xyz into bash like so.<br>
-`git clone --bare https://myrepos.xyz/Randy-Jordan/dot.git $HOME/.dot
-function config {
-   /usr/bin/git --git-dir=$HOME/.dot/ --work-tree=$HOME $@
-}
-mkdir -p .config-backup
-config checkout
-if [ $? = 0 ]; then
-  echo "Checked out config.";
-  else
-    echo "Backing up pre-existing dot files.";
-    config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
-fi;
-config checkout
-config config status.showUntrackedFiles no` 
+`curl https://gist.myrepos.xyz/config.sh | /bin/bash`<br>
 
 ## Credits / Resources
 I followed these guides on setting up a bare repository for your personal dot files.<br>
