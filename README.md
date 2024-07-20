@@ -30,6 +30,6 @@ When configuring a new install, pipe the scripts hosted [Here](https://www.gist.
 I followed these guides on setting up a bare repository for your personal dot files.<br>
 [Dotfiles: Best way to store in a bare git repository](https://www.atlassian.com/git/tutorials/dotfiles)<br>
 [StreakyCobra](https://news.ycombinator.com/item?id=11071754)<br>
-
+[Corey Schafer-Automate Your Development Environment Setup with Scripts and Dotfiles](https://www.youtube.com/watch?v=ra5kMCXO-6I)<br> 
 ## License
 This project is licensed under GPLv3 - see the [LICENSE](LICENSE) file for details.
