@@ -6,12 +6,12 @@ Personal dot files and home directory configuration scripts. Quickly configure n
 ## Table of Contents
 
 - [Description](#description)
-- [Features](#features) 
+- [Files \ Folders](#files--folders) 
 - [Usage](#usage)
 - [Credits / Resources](#credits--resources)
 - [License](#license)
 
-## Features / TODOS
+## Files / Folders
 
 - [x] .zshrc 
 - [x] .gitconfig
@@ -19,12 +19,15 @@ Personal dot files and home directory configuration scripts. Quickly configure n
 - [x] .tmux.conf
 - [x] .prettierrc
 - [x] eslint.config.js
+
 - [ ] /sh - Bash scripts, set as a PATH in .zshrc 
 - [ ] /md - Guides and notes written in markdown.
-- [ ] /eg - "For example" files, used as a reference for md files. 
+- [ ] /eg - "For example" files + XDG Templates folder. Used as reference by md. 
 - [ ] /cad - Solidworks and CAD files.
 - [ ] /repo - All my repositories. 
- 
+- [ ] /vm - Virtual Machines
+- [ ] /gui - XDG Desktop
+- [ ] /dl - XDG Downloads  
 ## Usage
 When configuring a new install, pipe the scripts hosted [Here](https://www.gist.myrepos.xyz) into bash like so.<br>
 `curl https://gist.myrepos.xyz/config.sh | /bin/bash`<br>
@@ -38,6 +41,8 @@ I followed these guides on setting up a bare repository for your personal dot fi
 When it comes to setting up the home directory you need to modify the xdg-user-dirs. <br>
 [Wiki Arch - XDG User Directories](https://wiki.archlinux.org/title/XDG_user_directories)<br>
 [SuperUser - Changing default home directory folder locations](https://superuser.com/questions/1785778/linux-change-default-location-of-directories-like-downloads-documents-pictur)<br>
+[Brodie Robertson - Clean up your home directory with XDG Ninja](https://www.youtube.com/watch?v=Tp4fkmJ6qXk)
+
 
 ## License
 This project is licensed under GPLv3 - see the [LICENSE](LICENSE) file for details.
