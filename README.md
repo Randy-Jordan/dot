@@ -1,36 +1,49 @@
 # dot 
 
 ## Description
-Personal dot files and home directory configuration scripts. Quickly configure new installations. 
+Basic personal dot files and home directory configuration guide. Quickly configure new installations. 
 
 ## Table of Contents
 
 - [Description](#description)
-- [Files \ Folders](#files--folders) 
+- [Breakdown](#breakdown) 
 - [Usage](#usage)
 - [Credits / Resources](#credits--resources)
 - [License](#license)
 
-## Files / Folders
+## Breakdown
+This repo only contains the most basic dot files. More specific ones will be noted and linked. Currently, the files are:
 
-- [x] .zshrc 
 - [x] .gitconfig
 - [x] .vimrc
 - [x] .tmux.conf
-- [x] .prettierrc
-- [x] eslint.config.js
+- [x] .zshrc
+- [x] [This README, use it to plan](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
+
+This is a breakdown of my home directory. Some are their own repo that needs downloaded, others are the XDG defaults but renamed.<br> 
 
 - [ ] /sh - Bash scripts, set as a PATH in .zshrc 
 - [ ] /md - Guides and notes written in markdown.
-- [ ] /eg - "For example" files + XDG Templates folder. Used as reference by md. 
-- [ ] /cad - Solidworks and CAD files.
+- [ ] /eg - "For example" files + XDG Templates folder. Used as reference by md. All dotfiles are here, not just the basic ones.
+- [ ] /cad - Solidworks and CAD files. 
 - [ ] /repo - All my repositories. 
 - [ ] /vm - Virtual Machines
 - [ ] /gui - XDG Desktop
 - [ ] /dl - XDG Downloads  
+
 ## Usage
-When configuring a new install, pipe the scripts hosted [Here](https://www.gist.myrepos.xyz) into bash like so.<br>
-`curl https://gist.myrepos.xyz/config.sh | /bin/bash`<br>
+[All examples can be found in /eg](https://myrepos.xyz/Randy-Jordan/eg)<br>
+[All scripts and lists can be found in /sh]()<br>
+[Scripts are also hosted here for ease of use](https://gist.myrepos.xyz/)<br>
+
+If we are root we need to modify the XDG-dirs.defaults before we login as user otherwise we have to manually change everything.<br>
+
+After you have the default directories, you can start using the scripts as you see fit. There are various lists of packages you cant install like so.<br>
+`curl https://gist.myrepos.xyz/cdev.list | xargs apt install -y`<br>
+
+
+After you have your preferred set of packages and folders you can pull this repo for the dotfiles. This repo is meant to have the most basic set of dotfiles. More specific ones, such as CAD,   
+`curl https://https://gist.myrepos.xyz/config.sh | /bin/bash`
 
 ## Credits / Resources
 I followed these guides on setting up a bare repository for your personal dot files.<br>
@@ -42,7 +55,6 @@ When it comes to setting up the home directory you need to modify the xdg-user-d
 [Wiki Arch - XDG User Directories](https://wiki.archlinux.org/title/XDG_user_directories)<br>
 [SuperUser - Changing default home directory folder locations](https://superuser.com/questions/1785778/linux-change-default-location-of-directories-like-downloads-documents-pictur)<br>
 [Brodie Robertson - Clean up your home directory with XDG Ninja](https://www.youtube.com/watch?v=Tp4fkmJ6qXk)
-
 
 ## License
 This project is licensed under GPLv3 - see the [LICENSE](LICENSE) file for details.
