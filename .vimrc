@@ -146,27 +146,27 @@ tnoremap <silent> <C-T> <C-w>N:call <SID>ToggleTerminal()<CR>
 
 "CODE SNIPPETS/TEMPLATES ---------------------------------------------------{{{
    "HTML SNIPPET/TEMPLATE"
-    nnoremap ,html :-1read $HOME/snippet/index.html<CR>:11<CR>
+    nnoremap ,html :-1read $HOME/eg/index.html<CR>:11<CR>
     if has("autocmd")
         augroup templates
-        autocmd BufNewFile index.html 0r ~/snippet/index.html
+        autocmd BufNewFile index.html 0r ~/eg/index.html
         autocmd BufReadPost index.html normal! 10j
         augroup END
     endif
 
     "CSS SNIPPET/TEMPLATE"
-    nnoremap ,css :-1read $HOME/snippet/style.css<CR>
+    nnoremap ,css :-1read $HOME/eg/style.css<CR>
     if has("autocmd")
         augroup templates
-        autocmd BufNewFile style.css 0r ~/snippet/style.css
+        autocmd BufNewFile style.css 0r ~/eg/style.css
         augroup END
     endif
 
      "README SNIPPET/TEMPLATE"
-    nnoremap ,read :-1read $HOME/snippet/README.md<CR>
+    nnoremap ,read :-1read $HOME/eg/README.md<CR>
     if has("autocmd")
         augroup templates
-        autocmd BufNewFile README.md 0r ~/snippet/README.md
+        autocmd BufNewFile README.md 0r ~/eg/README.md
         augroup END
     endif
 

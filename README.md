@@ -14,22 +14,22 @@ Basic personal dot files and home directory configuration guide. Quickly configu
 ## Breakdown
 This repo only contains the most basic dot files. More specific ones will be noted and linked. Currently, the files are:
 
-- [x] .gitconfig
-- [x] .vimrc
-- [x] .tmux.conf
-- [x] .zshrc
-- [x] [This README, use it to plan](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
++ .gitconfig
++ .vimrc
++ .tmux.conf
++ .zshrc
++ [This README, use it to plan](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
 
 This is a breakdown of my home directory. Some are their own repo that needs downloaded, others are the XDG defaults but renamed.<br> 
 
-- [ ] /sh - Bash scripts, set as a PATH in .zshrc 
-- [ ] /md - Guides and notes written in markdown.
-- [ ] /eg - "For example" files + XDG Templates folder. Used as reference by md. All dotfiles are here, not just the basic ones.
-- [ ] /cad - Solidworks and CAD files. 
-- [ ] /repo - All my repositories. 
-- [ ] /vm - Virtual Machines
-- [ ] /gui - XDG Desktop
-- [ ] /dl - XDG Downloads  
++ [ ] /sh - Bash scripts, set as a PATH in .zshrc 
++ [ ] /md - Guides and notes written in markdown.
++ [ ] /eg - "For example" files + XDG Templates folder. Used as reference by md. All dotfiles are here, not just the basic ones.
++ [ ] /cad - Solidworks and CAD files. 
++ [ ] /repo - All my repositories. 
++ [ ] /vm - Virtual Machines
++ [ ] /gui - XDG Desktop
++ [ ] /dl - XDG Downloads  
 
 ## Usage
 [All examples can be found in /eg](https://myrepos.xyz/Randy-Jordan/eg)<br>
