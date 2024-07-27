@@ -22,11 +22,11 @@ This repo only contains the most basic dot files. More specific ones will be not
 
 This is a breakdown of my home directory. Some are their own repo that needs downloaded, others are the XDG defaults but renamed.<br> 
 
-+ [ ] /sh - Bash scripts, set as a PATH in .zshrc 
-+ [ ] /md - Guides and notes written in markdown.
-+ [ ] /eg - "For example" files + XDG Templates folder. Used as reference by md. All dotfiles are here, not just the basic ones.
-+ [ ] /cad - Solidworks and CAD files. 
-+ [ ] /repo - All my repositories. 
++ [/sh](https://myrepos.xyz/Randy-Jordan/sh) - Bash scripts, set as a PATH in .zshrc 
++ [/md](https://myrepos.xyz/Randy-Jordan/md) - Guides and notes written in markdown.
++ [/eg](https://myrepos.xyz/Randy-Jordan/eg) - "For example" files + XDG Templates folder. Used as reference by md. All dotfiles are here, not just the basic ones.
++ [/cad](https://myrepos.xyz/Randy-Jordan/cad) - Solidworks and CAD files. 
++ [/repo](https://myrepos.xyz/Randy-Jordan) - All my repositories. 
 + [ ] /vm - Virtual Machines
 + [ ] /gui - XDG Desktop
 + [ ] /dl - XDG Downloads  
