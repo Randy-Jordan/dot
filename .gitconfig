@@ -1,0 +1,13 @@
+[user]
+	email = randyjordan@email.com
+	name = Randy Jordan
+	signkey = D57FA29E3B54663E
+	sigingkey = 85D3260BB1055985
+	
+	
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
