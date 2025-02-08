@@ -55,7 +55,7 @@ If you are already tracking your dotfiles and this a fresh install, you can run 
 `alias config='/usr/bin/git --git-dir=$HOME/.dot/ --work-tree=$HOME'` Alias config<br>
 `echo ".dot" >> .gitignore` Avoid weird recursion problems where you clone.<br>
 `git clone --bare https://github.com/Randy-Jordan/dot.git $HOME/.dot` Clone repo<br>
-`alias config='/usr/bin/git --git-dir=$HOME/.dot/ --work-tree=$HOME' Current shell scope<br>
+`alias config='/usr/bin/git --git-dir=$HOME/.dot/ --work-tree=$HOME'` Current shell scope<br>
 
 You may already have some dotfiles, so we will back them up to avoid conficts.<br>
 `mkdir -p .config-backup && \
@@ -66,6 +66,8 @@ Now we can run the checkout command to get our dotfiles from the repo.<br>
 `config checkout`<br>
 Make sure to set untracked files setting.<br>
 `config config --local status.showUntrackedFiles no`<br>
+
+These commands have also been made into an easy bash script: `curl https://gist.myrepos.dev/config.sh | bash`<br>
 
 `config status` To see status of your dotfiles.<br>
 `config add .xyzfile` To start adding dotfiles. <br>
